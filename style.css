@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #C1E1DC;
+}
+
+* {
+  margin-top: 10px;
+  margin-left: 0px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+#meals {
+  margin: 2px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+a:link {
+  color: #ff0095;
+}
+
+a:visited {
+  color: #ff0095;
+}
+
+a:hover {
+  color: #000;
+}
+
+
+button {
+  margin: 18px;
+  padding: 17px;
+  width: 30%;
+  color: #000000;
+  background-color: #FFCCAC;
+  border-radius: 2px;
+  border-color: #000000;
+}
+
+#header {
+  background-color: #FFCCAD;
+  width: 100%;
+  padding: 10px;
+}
+
+#b1 {
+  background-color: #C1E1DC;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+
+

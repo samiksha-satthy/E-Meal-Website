@@ -1,0 +1,61 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #C1E1DC;
+}
+
+* {
+  font-family: "Lucida Console", Courier, monospace;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+a:link {
+  color: #FF0095;
+}
+
+a:visited {
+  color: #FF0095;
+}
+
+a:hover {
+  color: #000;
+}
+
+.navDefault {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFCCAC;
+}
+#diets {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  border: none;
+  background-color: #FFCCAC;
+  width: 150px;
+  height: 80px;
+  color: #000000;
+  text-transform: uppercase;
+  cursor: pointer;
+  flex-direction: center;
+  padding: 10px;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 20px;
+}
+
+.back {
+  background-color: grey;
+}
+body {
+  padding: 30px;
+  margin-top: 10px;
+}
+
+
